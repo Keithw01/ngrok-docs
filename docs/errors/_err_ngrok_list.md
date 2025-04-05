@@ -5281,6 +5281,23 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_2253" href="/docs/errors/err_ngrok_2253">ERR_NGROK_2253</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to evaluate CEL expression: <code>&lt;EXPRESSION&gt;</code> for <code>&lt;ACTION&gt;</code> at runtime: <code>&lt;ERR&gt;</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2254" href="/docs/errors/err_ngrok_2254">ERR_NGROK_2254</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to resolve CEL expression. The expression was: <code>&lt;CEL&gt;</code>
+        ERROR: <code>&lt;ERROR&gt;</code>}
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_3002" href="/docs/errors/err_ngrok_3002">ERR_NGROK_3002</a>
       </td>
       <td class="pre-wrapped">
@@ -5787,6 +5804,14 @@
       </td>
       <td class="pre-wrapped">
         Tunnel <code>&lt;HOSTNAME&gt;</code> has multiple bindings but no binding was specified
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_3213" href="/docs/errors/err_ngrok_3213">ERR_NGROK_3213</a>
+      </td>
+      <td class="pre-wrapped">
+        Upgrade request origin forbidden
       </td>
     </tr>
     <tr>
@@ -9614,6 +9639,17 @@
       </td>
       <td class="pre-wrapped">
         This edge module has exceeded its policy rule limit of <code>&lt;LIMIT&gt;</code>. Please log into https://dashboard.ngrok.com to view your options.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_7196" href="/docs/errors/err_ngrok_7196">ERR_NGROK_7196</a>
+      </td>
+      <td class="pre-wrapped">
+        Your account has read-only access to Edges.
+        Edges are deprecated, and write access (including creating, updating, or deleting) is no longer supported for your account.
+        For guidance on alternatives, see our migration guide: <a href="https://ngrok.com/docs/universal-gateway/edges">https://ngrok.com/docs/universal-gateway/edges</a>/#migration-guide
+        .If you believe you should still have write access to Edges, please contact support@ngrok.com for help.
       </td>
     </tr>
     <tr>
